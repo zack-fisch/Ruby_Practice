@@ -53,18 +53,4 @@ def is_prime?(num)
 	end
 end
 
-# is_prime?(3)
-def primes(max)
-	arr = []
-	i = 1
-	while i < max
-		if is_prime?(i)
-			arr << i
-		end
-		i += 1
-	end
-
-	primes_arr
-end
-
 
